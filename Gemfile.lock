@@ -1,6 +1,18 @@
+GIT
+  remote: git@github.com:peertransfer/meetings_recorder-lita
+  revision: d885fc55e44f5d04171d1cc95bfd3ad097104762
+  specs:
+    lita-meetings-recorder (0.1.0)
+      amqp (~> 1.5)
+      lita (>= 4.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    amq-protocol (1.9.2)
+    amqp (1.5.1)
+      amq-protocol (~> 1.9)
+      eventmachine
     dotenv (2.0.2)
     eventmachine (1.0.8)
     faraday (0.9.2)
@@ -52,4 +64,5 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   lita
+  lita-meetings-recorder!
   lita-slack
